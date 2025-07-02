@@ -22,9 +22,10 @@ const illustration = {
 const greeting = {
   username: "Muhammad Haziq Aqeel",
   title: "Hi all, I'm Haziq",
-  subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
+  subTitle: emoji(`
+    🚀 Full Stack Software Developer with extensive experience in designing and developing robust Web and Mobile applications using modern technologies. Proficient in JavaScript, TypeScript, Ruby, and Python, I specialize in building scalable solutions with a focus on performance and clean architecture.
+    🔍 I’m passionate about leveraging technology to solve real-world problems and thrive in fast-paced, collaborative environments where innovation meets impact.
+  `),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
