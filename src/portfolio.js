@@ -141,14 +141,9 @@ const educationInfo = {
   schools: [
     {
       schoolName: "PUCIT",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/pucitLogo.png"),
       subHeader: "Bachelor of Information Technology",
       duration: "October 2014 - August 2018",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
     }
   ]
 };
@@ -187,7 +182,7 @@ const workExperiences = {
       role: "Senior Software Engineer",
       company: "POLN",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      date: "Oct 2024 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
