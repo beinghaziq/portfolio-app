@@ -181,7 +181,7 @@ const workExperiences = {
     {
       role: "Senior Software Engineer",
       company: "POLN",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/polnLogo.png"),
       date: "Oct 2024 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
