@@ -141,14 +141,9 @@ const educationInfo = {
   schools: [
     {
       schoolName: "PUCIT",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/pucitLogo.png"),
       subHeader: "Bachelor of Information Technology",
       duration: "October 2014 - August 2018",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
     }
   ]
 };
@@ -186,8 +181,8 @@ const workExperiences = {
     {
       role: "Senior Software Engineer",
       company: "POLN",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      companylogo: require("./assets/images/polnLogo.png"),
+      date: "Oct 2024 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -197,15 +192,15 @@ const workExperiences = {
     {
       role: "Senior Software Engineer",
       company: "Devsinc",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      companylogo: require("./assets/images/devsincLogo.png"),
+      date: "Dec 2020 – Sep 2024",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       role: "Software Engineer",
       company: "Visnext Software Solutions",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      companylogo: require("./assets/images/visnextLogo.png"),
+      date: "Dec 2018 – Dec 2020",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
