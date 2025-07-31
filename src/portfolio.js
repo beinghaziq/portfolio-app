@@ -224,7 +224,18 @@ const workExperiences = {
       company: "Visnext Software Solutions",
       companylogo: require("./assets/images/visnextLogo.png"),
       date: "Dec 2018 – Dec 2020",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "As a Full-Stack Developer, I've built and maintained web applications, upgraded Rails 4→6, implemented Stripe payment systems, integrated email/SMS (Mandrill/Plivo), optimized SEO via Google Search Console, tracked analytics with Google Optimize, developed GraphQL/REST APIs, and utilized Git/GitHub for version control—delivering robust, scalable solutions.",
+      descBullets: [
+        "Developed multiple web applications and maintained existing applications",
+        "Upgraded Rails application from version 4 to 6",
+        "Built bespoke credit card forms with Stripe API for secure payments",
+        "Integrated email functionality using Mandrill",
+        "Implemented SMS/MMS functionality with Plivo",
+        "Optimized web page performance using Google Search Console",
+        "Created Google Analytics goals and integrated with Google Optimize experiments",
+        "Developed both GraphQL and REST APIs",
+        "Utilized Git and GitHub for version control and application functionality"
+      ]
     }
   ]
 };
