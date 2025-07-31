@@ -183,10 +183,20 @@ const workExperiences = {
       company: "POLN",
       companylogo: require("./assets/images/polnLogo.png"),
       date: "Oct 2024 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "As a Full-Stack Developer, I built Datadyno (transaction analytics) and Wrapsody (book collage app), developed serverless APIs in Node.js/Python (AWS SAM/Cognito/WebSockets), implemented AI search (Langchain/OpenAI) and blockchain identity (Veramo), created embeddable widgets, enhanced testing with Cypress, deployed AWS infrastructure (S3/CloudFront), and engineered Python-based image animation—demonstrating full-stack versatility in web and data-driven applications.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed the Datadyno app to import purchase history and visualize transaction data through interactive metrics, charts and graphs",
+        "Integrated Langchain with OpenAI in Node.js to enable querying of user questions from our database.",
+        "Integrated Veramo to generate zero-knowledge proofs and verifiable credentials.",
+        "Created embeddable widget applications for streamlined user interaction.",
+        "Integrated Cypress for integration testing.",
+        "Built Wrapsody app for making books wrap-ups and collages using templates and imported books from Amazon, Barnes and Noble and Google books",
+        "Integrated Google Books Api, ISBNdb and Open Library to fetch books details",
+        "Implemented APIs using serverless framework in NodeJS along with the AWS Cognito authorization",
+        "Configured web socket server in express app and used it for notification of background processes",
+        "Updated UI for marketing site and configured staging server it’s using AWS Cloudfront and S3",
+        "Implemented APIs using SAM in Python",
+        "Implemented image animation in Python"
       ]
     },
     {
@@ -194,14 +204,38 @@ const workExperiences = {
       company: "Devsinc",
       companylogo: require("./assets/images/devsincLogo.png"),
       date: "Dec 2020 – Sep 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "As a Full-Stack Developer, I design and maintain efficient, reusable code while mentoring teams, leverage AWS for scalable storage, utilize Git/GitHub for version control, and employ metaprogramming to boost productivity by 90%. I ensure robust front-end testing (React Testing Library/Jest/Enzyme), deploy on Heroku/AWS, integrate APIs (Zoom with custom wrapper/gem contributions), implement secure auth (OAuth/DynamoDB, Azure SAML SSO), and manage secrets via AWS Secrets Manager—delivering end-to-end solutions with optimized performance.",
+      descBullets: [
+        "Designing, building, and maintaining an efficient, reusable, and reliable code",
+        "Helping maintain code quality and onboarding/mentoring new team members",
+        "Utilizing Amazon Web Services (AWS) for improved storage efficiency and fast access",
+        "Implementing version control with Git and GitHub for enhanced application functionality",
+        "Applying metaprogramming techniques to reduce coding time by over 90%",
+        "Conducting client-side testing with React Testing Library, Jest, and Enzyme",
+        "Deploying applications on Heroku and AWS servers",
+        "Integrating Zoom API by creating a custom wrapper with meeting management features",
+        "Contributing to zoom_rb Rails gem by adding webinar support",
+        "Implementing OAuth with active session handling in DynamoDB and AWS Secrets Manager",
+        "Configuring Azure SAML SSO for secure authentication"
+      ]
     },
     {
       role: "Software Engineer",
       company: "Visnext Software Solutions",
       companylogo: require("./assets/images/visnextLogo.png"),
       date: "Dec 2018 – Dec 2020",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "As a Full-Stack Developer, I've built and maintained web applications, upgraded Rails 4→6, implemented Stripe payment systems, integrated email/SMS (Mandrill/Plivo), optimized SEO via Google Search Console, tracked analytics with Google Optimize, developed GraphQL/REST APIs, and utilized Git/GitHub for version control—delivering robust, scalable solutions.",
+      descBullets: [
+        "Developed multiple web applications and maintained existing applications",
+        "Upgraded Rails application from version 4 to 6",
+        "Built bespoke credit card forms with Stripe API for secure payments",
+        "Integrated email functionality using Mandrill",
+        "Implemented SMS/MMS functionality with Plivo",
+        "Optimized web page performance using Google Search Console",
+        "Created Google Analytics goals and integrated with Google Optimize experiments",
+        "Developed both GraphQL and REST APIs",
+        "Utilized Git and GitHub for version control and application functionality"
+      ]
     }
   ]
 };
@@ -222,8 +256,8 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "DataDyno",
+      projectDesc: "Transformed Amazon purchase history into actionable insights, improving customer tracking and organization.",
       footerLink: [
         {
           name: "Visit Website",
@@ -432,7 +466,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
