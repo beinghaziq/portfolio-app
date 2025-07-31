@@ -183,10 +183,20 @@ const workExperiences = {
       company: "POLN",
       companylogo: require("./assets/images/polnLogo.png"),
       date: "Oct 2024 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "As a Full-Stack Developer, I built Datadyno (transaction analytics) and Wrapsody (book collage app), developed serverless APIs in Node.js/Python (AWS SAM/Cognito/WebSockets), implemented AI search (Langchain/OpenAI) and blockchain identity (Veramo), created embeddable widgets, enhanced testing with Cypress, deployed AWS infrastructure (S3/CloudFront), and engineered Python-based image animation—demonstrating full-stack versatility in web and data-driven applications.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed the Datadyno app to import purchase history and visualize transaction data through interactive metrics, charts and graphs",
+        "Integrated Langchain with OpenAI in Node.js to enable querying of user questions from our database.",
+        "Integrated Veramo to generate zero-knowledge proofs and verifiable credentials.",
+        "Created embeddable widget applications for streamlined user interaction.",
+        "Integrated Cypress for integration testing.",
+        "Built Wrapsody app for making books wrap-ups and collages using templates and imported books from Amazon, Barnes and Noble and Google books",
+        "Integrated Google Books Api, ISBNdb and Open Library to fetch books details",
+        "Implemented APIs using serverless framework in NodeJS along with the AWS Cognito authorization",
+        "Configured web socket server in express app and used it for notification of background processes",
+        "Updated UI for marketing site and configured staging server it’s using AWS Cloudfront and S3",
+        "Implemented APIs using SAM in Python",
+        "Implemented image animation in Python"
       ]
     },
     {
@@ -194,7 +204,20 @@ const workExperiences = {
       company: "Devsinc",
       companylogo: require("./assets/images/devsincLogo.png"),
       date: "Dec 2020 – Sep 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "As a Full-Stack Developer, I design and maintain efficient, reusable code while mentoring teams, leverage AWS for scalable storage, utilize Git/GitHub for version control, and employ metaprogramming to boost productivity by 90%. I ensure robust front-end testing (React Testing Library/Jest/Enzyme), deploy on Heroku/AWS, integrate APIs (Zoom with custom wrapper/gem contributions), implement secure auth (OAuth/DynamoDB, Azure SAML SSO), and manage secrets via AWS Secrets Manager—delivering end-to-end solutions with optimized performance.",
+      descBullets: [
+        "Designing, building, and maintaining an efficient, reusable, and reliable code",
+        "Helping maintain code quality and onboarding/mentoring new team members",
+        "Utilizing Amazon Web Services (AWS) for improved storage efficiency and fast access",
+        "Implementing version control with Git and GitHub for enhanced application functionality",
+        "Applying metaprogramming techniques to reduce coding time by over 90%",
+        "Conducting client-side testing with React Testing Library, Jest, and Enzyme",
+        "Deploying applications on Heroku and AWS servers",
+        "Integrating Zoom API by creating a custom wrapper with meeting management features",
+        "Contributing to zoom_rb Rails gem by adding webinar support",
+        "Implementing OAuth with active session handling in DynamoDB and AWS Secrets Manager",
+        "Configuring Azure SAML SSO for secure authentication"
+      ]
     },
     {
       role: "Software Engineer",
